@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Unbounded:wght@300&display=swap');
+
+body {  
+    font-family: 'advent pro', sans-serif;
+    margin: 2px;
+    padding: 2px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+    margin: auto;
+}
+
+a { text-decoration: none;
+    color: black;
+}
+
+/* ********* NAV BAR ********* */
+
+nav {
+    overflow: hidden;
+    background-color: #ffae1f;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+}
+
+header li {
+    float: right;
+    font-size: 1.2em;
+}
+
+header li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 18px 16px;
+}
+
+#logo {
+    font-family: 'Dancing Script', 'cursive';
+    font-weight: bold;
+    float: left;
+}
+
+/* ****** Image Principal ****** */
+
+#imagePrincipale {
+        text-align: center;
+        background-color: black;
+        text-decoration: #fffae1;
+        text-shadow: black;
+        padding-top: 0;
+        background-size: cover;
+        
+}
+
+#imagePrincipale p {
+    color: #fffae1;
+    text-shadow: black;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Dancing Script','Cursive';
+    text-align:center;
+    font-size: 6em;
+    margin-top: 0px;
+    color: antiquewhite;
+    text-shadow: 1px 3px 2px black;
+    padding-top: 80px;
+}
+
+#premierTrait{
+    height: 1px;
+    width: 25%;
+    margin: -3px auto;
+    background-color: #fffae1;
+}
+
+
+
+h3 {
+    text-align: center;
+    color: antiquewhite;
+    font-size: 3em;
+    text-shadow: 1px 3px 2px black;
+}
+
+/* ********* Prensentation *********** */
+
+#presentation {
+    background-color: #fffae1;
+    border-radius: 5px black;
+    padding: 10px 0px 100px 0;
+}
+
+#textIntro {
+    padding: 0px 20%;
+}
+
+#presta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 25px 10%;
+    margin: 25px 10%;
+    border-radius: 2px black;
+    border: black;
+}
+
+.Image-presta h4 {
+    font-family: 'Dancing Script','Cursive';
+    text-align: center;
+    font-size: 1.8em;
+    margin: 15px;
+    font-weight: 300;
+}
+
+.Image-presta img {
+    border-radius: 50px;
+    box-shadow: 5px 5px 4px 8px rgb(0, 0, 0);
+    margin: 25px;
+}
+
+p {
+    color: black;
+    text-align: center;
+}
+
+/* *********** FOOTER *********** */
+
+footer{
+    background-color: #524a3a;
+    color: #fffae1;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+input, textarea, button {
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    font-family: 'Advent Pro','sans-serif';
+    border-radius: 8px;
+}
+
+textarea {
+    height: 120px;
+}
+
+button {
+    font-size: 1.5em;
+    background-color: #fffae1;
+}
+
+button:hover {
+    background-color: red;
+    color: #fffae1;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+#deuxiemeTrait {
+    height: 1px;
+    width: 75%;
+    background-color: #fffae1;
+    margin: 60px auto;
+}
+
+#copyrighEtIcons {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+}
+
+#copyright {
+    width: 50%;
+    text-align: left;
+    color: #fffae1;
+}
+
+#Icons {
+    width: 50%;
+    text-align: right;
+}
+
+#Icons a {
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 1.3em;
+    color:#fffae1;
+}
+
+#Icons a:hover {
+    transform: scale(1.5);
+    transition: 0.1s;
+}
+

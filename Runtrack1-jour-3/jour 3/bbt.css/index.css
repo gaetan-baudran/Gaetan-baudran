@@ -1,0 +1,22 @@
+body {border: 8px double #000;
+    border-radius: auto;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Unbounded', cursive;
+}
+#skills {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: space-around;
+    background-color: bisque;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+}
+#barre{height: 1vh;
+       width: 98vw;
+       background-color: #000
+;}

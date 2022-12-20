@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: underline;
+  }
+
+  body{
+    font-family: serif;
+    font-weight: 300;
+    font-size: .9rem;
+    line-height: 1.5;
+  }
+  p{
+    margin: 0 0 1rem;
+  }
+
+  h1{
+    margin: 0 0 1rem;
+    font-size: 2.5rem;
+    margin-bottom: .5rem;
+  }
+
+  h2{
+    margin: 0 0 1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .text-blue{
+    color: #000000;
+  }
+  
+  .text-darkblue{
+    color: #000000;
+  }
+  
+  .text-uppercase{
+    text-transform: uppercase; 
+  }
+  
+  .icon{
+    margin-right: .5rem;
+  }
+
+.cv-container{    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column-reverse;
+    background-color: bisque;
+    box-shadow: ;}
+
+.section{background-color: aliceblue;
+        margin-bottom: 1.5rem;}
+
+        .portait{
+            border-radius: 50%;
+            max-width: 150px;
+            margin: auto;
+            display: block;
+            margin-bottom: 50px;
+          }
+          
+          .skills{
+            list-style-type: none;
+            padding: 0;
+            font-size: 1.1rem;
+            letter-spacing: 1px;
+            margin: 0 0 1rem;
+            }
+
+            .content{
+                grid-area: content;
+                padding: 50px;
+              }
+              
+              .experience-list{
+                list-style-type: circle;
+              }
+            
+              a{
+                text-decoration: none;
+                color: #4472C4;
+              }
+              
+              a:hover{
+                text-decoration: underline;
+              }

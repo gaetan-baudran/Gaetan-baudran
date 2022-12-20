@@ -1,0 +1,29 @@
+body {background: linear-gradient(120deg, rgb(227, 210, 210) 50%, #FF0000 50%);
+    text-decoration: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 8px double #000;
+    border-radius: auto;
+    }
+
+    #skills {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        flex-wrap: wrap;
+        background-color: bisque;
+        align-content: space-around;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    h1 {background-color: bisque;
+        display: flex;
+        justify-content: center;
+    }
+
+    p{background-color: bisque;}
+    
+    #barre{height: 1vh;
+           width: 98vw;
+           background-color: #000
+    ;}
